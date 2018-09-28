@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneGameSkin" width="720" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:components="components.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="GameBG3_jpg" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image y="154.05" source="WordFrame_png" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" locked="true"/>
+	<e:Image id="img_question" y="210" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="" width="390" height="260"/>
+	<e:Group id="group_anwer" y="500" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" locked="true">
+		<components:AnswerWord x="11" y="3" skinName="WordSkin"/>
+		<components:AnswerWord x="90.23" y="0" skinName="WordSkin"/>
+		<components:AnswerWord x="164.25" y="3" skinName="WordSkin"/>
+		<components:AnswerWord x="253.18" y="4.62" skinName="WordSkin"/>
+		<e:layout>
+			<e:HorizontalLayout gap="15" horizontalAlign="left" verticalAlign="middle" paddingLeft="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_words" y="650.54" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<components:Word x="24" y="37.24" skinName="WordSkin"/>
+		<components:Word x="34" y="47.24" skinName="WordSkin"/>
+		<components:Word x="44" y="57.24" skinName="WordSkin"/>
+		<components:Word x="54" y="67.24000000000001" skinName="WordSkin"/>
+		<components:Word x="64" y="77.24000000000001" skinName="WordSkin"/>
+		<components:Word x="74" y="87.24000000000001" skinName="WordSkin"/>
+		<components:Word x="84" y="97.24000000000001" skinName="WordSkin"/>
+		<components:Word x="94" y="107.24000000000001" skinName="WordSkin"/>
+		<components:Word x="104" y="117.24000000000001" skinName="WordSkin"/>
+		<components:Word x="114" y="127.24000000000001" skinName="WordSkin"/>
+		<components:Word x="124" y="137.24" skinName="WordSkin"/>
+		<components:Word x="134" y="147.24" skinName="WordSkin"/>
+		<components:Word x="144" y="157.24" skinName="WordSkin"/>
+		<components:Word x="154" y="167.24" skinName="WordSkin"/>
+		<components:Word x="164" y="177.24" skinName="WordSkin"/>
+		<components:Word x="174" y="187.24" skinName="WordSkin"/>
+		<components:Word x="184" y="197.24" skinName="WordSkin"/>
+		<components:Word x="194" y="207.24" skinName="WordSkin"/>
+		<components:Word x="255" y="261" skinName="WordSkin"/>
+		<components:Word x="265" y="271" skinName="WordSkin"/>
+		<e:layout>
+			<e:TileLayout verticalGap="20" orientation="columns" requestedColumnCount="5" horizontalGap="20" paddingTop="0" paddingLeft="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_win" left="0" right="0" top="0" bottom="0" visible="false" locked="true">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.53"/>
+		<e:Image source="Result_png" anchorOffsetX="0" horizontalCenter="0" width="550.67" anchorOffsetY="0" height="413" verticalCenter="250"/>
+		<e:Button id="btn_next" label="" y="928.34" anchorOffsetX="0" width="125.51" anchorOffsetY="0" height="62" horizontalCenter="130">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ResultBtn_png" source.down="ResultBtn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lb_from" text="标签" y="705.16" textColor="0x000000" fontFamily="SimSun" anchorOffsetX="0" width="65%" anchorOffsetY="0" height="63.68" verticalAlign="top" multiline="true" horizontalCenter="0"/>
+		<e:Label id="lb_explain" text="标签" y="800.35" textColor="0x000000" fontFamily="SimSun" multiline="true" anchorOffsetX="0" width="65%" anchorOffsetY="0" height="122.67" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btn_back" label="" left="20" top="8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BackBtn_png" source.down="BackBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_setting" label="设置" anchorOffsetX="0" width="105" right="20" top="10">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MoneyBG_png" scale9Grid="28,8,175,51"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="KaiTi" size="36"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

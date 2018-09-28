@@ -1,0 +1,18 @@
+{
+  "skins": {
+    "components.LevelIcon": "resource/components/LevelIconSkin.exml",
+    "Game.ScreenBegin": "resource/eui_skins/ScreenBeginSkin.exml",
+    "Game.SceneLevels": "resource/eui_skins/SceneLevelsSkin.exml",
+    "components.Word": "resource/components/WordSkin.exml",
+    "Game.GameSetting": "resource/eui_skins/GameSettingSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/components/LevelIconSkin.exml",
+    "resource/components/WordSkin.exml",
+    "resource/eui_skins/GameSettingSkin.exml",
+    "resource/eui_skins/SceneGameSkin.exml",
+    "resource/eui_skins/SceneLevelsSkin.exml",
+    "resource/eui_skins/ScreenBeginSkin.exml"
+  ]
+}
